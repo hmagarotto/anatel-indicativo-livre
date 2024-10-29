@@ -1,0 +1,191 @@
+[
+    {
+        "state": "ACRE",
+        "prefix": "PT",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "ALAGOAS",
+        "prefix": "PP",
+        "region": 7,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "AMAPÁ",
+        "prefix": "PQ",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "AMAZONAS",
+        "prefix": "PP",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "BAHIA",
+        "prefix": "PY",
+        "region": 6,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "CEARÁ",
+        "prefix": "PT",
+        "region": 7,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "DISTRITO FEDERAL",
+        "prefix": "PT",
+        "region": 2,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "ESPÍRITO SANTO",
+        "prefix": "PP",
+        "region": 1,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "GOIÁS",
+        "prefix": "PP",
+        "region": 2,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "MARANHÃO",
+        "prefix": "PR",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "MATO GROSSO",
+        "prefix": "PY",
+        "region": 9,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "MATO GROSSO DO SUL",
+        "prefix": "PT",
+        "region": 9,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "MINAS GERAIS",
+        "prefix": "PY",
+        "region": 4,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "PARAÍBA",
+        "prefix": "PR",
+        "region": 7,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "PARANÁ",
+        "prefix": "PY",
+        "region": 5,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "PARÁ",
+        "prefix": "PY",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "PERNAMBUCO",
+        "prefix": "PY",
+        "region": 7,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "PIAUÍ",
+        "prefix": "PS",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "RIO DE JANEIRO",
+        "prefix": "PY",
+        "region": 1,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "RIO GRANDE DO NORTE",
+        "prefix": "PS",
+        "region": 7,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "RIO GRANDE DO SUL",
+        "prefix": "PY",
+        "region": 3,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "RONDÔNIA",
+        "prefix": "PW",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "RORAIMA",
+        "prefix": "PV",
+        "region": 8,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "SANTA CATARINA",
+        "prefix": "PP",
+        "region": 5,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "SÃO PAULO",
+        "prefix": "PY",
+        "region": 2,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "SERGIPE",
+        "prefix": "PP",
+        "region": 6,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    },
+    {
+        "state": "TOCANTINS",
+        "prefix": "PQ",
+        "region": 2,
+        "suffix_start": "AA",
+        "suffix_end": "ZZ"
+    }
+]

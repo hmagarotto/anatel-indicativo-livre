@@ -1,0 +1,191 @@
+[
+    {
+        "state": "ACRE",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "JAA",
+        "suffix_end": "LZZ"
+    },
+    {
+        "state": "ALAGOAS",
+        "prefix": "PU",
+        "region": 7,
+        "suffix_start": "AAA",
+        "suffix_end": "DZZ"
+    },
+    {
+        "state": "AMAPÁ",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "GAA",
+        "suffix_end": "IZZ"
+    },
+    {
+        "state": "AMAZONAS",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "AAA",
+        "suffix_end": "CZZ"
+    },
+    {
+        "state": "BAHIA",
+        "prefix": "PU",
+        "region": 6,
+        "suffix_start": "JAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "CEARÁ",
+        "prefix": "PU",
+        "region": 7,
+        "suffix_start": "MAA",
+        "suffix_end": "PZZ"
+    },
+    {
+        "state": "DISTRITO FEDERAL",
+        "prefix": "PU",
+        "region": 2,
+        "suffix_start": "AAA",
+        "suffix_end": "EZZ"
+    },
+    {
+        "state": "ESPÍRITO SANTO",
+        "prefix": "PU",
+        "region": 1,
+        "suffix_start": "AAA",
+        "suffix_end": "IZZ"
+    },
+    {
+        "state": "GOIÁS",
+        "prefix": "PU",
+        "region": 2,
+        "suffix_start": "FAA",
+        "suffix_end": "HZZ"
+    },
+    {
+        "state": "MARANHÃO",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "MAA",
+        "suffix_end": "OZZ"
+    },
+    {
+        "state": "MATO GROSSO",
+        "prefix": "PU",
+        "region": 9,
+        "suffix_start": "OAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "MATO GROSSO DO SUL",
+        "prefix": "PU",
+        "region": 9,
+        "suffix_start": "AAA",
+        "suffix_end": "NZZ"
+    },
+    {
+        "state": "MINAS GERAIS",
+        "prefix": "PU",
+        "region": 4,
+        "suffix_start": "AAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "PARAÍBA",
+        "prefix": "PU",
+        "region": 7,
+        "suffix_start": "EAA",
+        "suffix_end": "HZZ"
+    },
+    {
+        "state": "PARANÁ",
+        "prefix": "PU",
+        "region": 5,
+        "suffix_start": "MAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "PARÁ",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "WAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "PERNAMBUCO",
+        "prefix": "PU",
+        "region": 7,
+        "suffix_start": "RAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "PIAUÍ",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "PAA",
+        "suffix_end": "SZZ"
+    },
+    {
+        "state": "RIO DE JANEIRO",
+        "prefix": "PU",
+        "region": 1,
+        "suffix_start": "JAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "RIO GRANDE DO NORTE",
+        "prefix": "PU",
+        "region": 7,
+        "suffix_start": "IAA",
+        "suffix_end": "LZZ"
+    },
+    {
+        "state": "RIO GRANDE DO SUL",
+        "prefix": "PU",
+        "region": 3,
+        "suffix_start": "AAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "RONDÔNIA",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "DAA",
+        "suffix_end": "FZZ"
+    },
+    {
+        "state": "RORAIMA",
+        "prefix": "PU",
+        "region": 8,
+        "suffix_start": "TAA",
+        "suffix_end": "VZZ"
+    },
+    {
+        "state": "SANTA CATARINA",
+        "prefix": "PU",
+        "region": 5,
+        "suffix_start": "AAA",
+        "suffix_end": "LZZ"
+    },
+    {
+        "state": "SÃO PAULO",
+        "prefix": "PU",
+        "region": 2,
+        "suffix_start": "KAA",
+        "suffix_end": "YZZ"
+    },
+    {
+        "state": "SERGIPE",
+        "prefix": "PU",
+        "region": 6,
+        "suffix_start": "AAA",
+        "suffix_end": "IZZ"
+    },
+    {
+        "state": "TOCANTINS",
+        "prefix": "PU",
+        "region": 2,
+        "suffix_start": "IAA",
+        "suffix_end": "JZZ"
+    }
+]
