@@ -1,5 +1,5 @@
-import states_a from './classe-a.json' assert { type: 'json' };
-import states_b from './classe-b.json' assert { type: 'json' };
+import states_ab2 from './classe-ab2.json' assert { type: 'json' };
+import states_ab3 from './classe-ab3.json' assert { type: 'json' };
 import states_c from './classe-c.json' assert { type: 'json' };
 import { readFileSync, writeFileSync } from 'fs';
 
@@ -40,8 +40,8 @@ function generateSuffixes(suffix_start, suffix_end) {
 
 const used = new Set(readFileSync('used.txt').toString('UTF8').split('\n'));
 const classes = {
-    'A': states_a,
-    'B': states_b,
+    'AB2': states_ab2,
+    'AB3': states_ab3,
     'C': states_c,
 }
 const prohibited = new Set([
