@@ -3,11 +3,7 @@ import states_ab3 from './classe-ab3.json' assert { type: 'json' };
 import states_c from './classe-c.json' assert { type: 'json' };
 import { readFileSync, writeFileSync } from 'fs';
 
-const file_preamble = `Gerado por Henrique PU2WHM em ${(new Date()).toLocaleDateString()}
-www.pu2whm.com
-
-
-`;
+const file_preamble = `Gerado por Henrique PU2WHM em ${(new Date()).toLocaleDateString()}\nsite: www.pu2whm.com\n`;
 
 function replaceChar(origString, replaceChar, index) {
     return origString.substr(0, index) + replaceChar + origString.substr(index + 1);
@@ -61,6 +57,7 @@ for (const classe in classes) {
     }
 }
 
+const report = {};
 for (const classe in classes) {
     const states = classes[classe];
     for (const state of states) {
@@ -81,7 +78,24 @@ for (const classe in classes) {
             text = `${text}${callsign};`;
         }
         const file_name = `classe ${classe} - ${state.state}.csv`;
-        writeFileSync(`callsign-free/${file_name}`, `${file_preamble}${text}`);
-        console.log(`classe ${classe} - ${state.state}: ${state.free_callsigns.length}/${state.callsigns.length} (${ Number(100*state.free_callsigns.length/state.callsigns.length).toFixed(1) }%)`)
+        const file_metadata = `classe: ${classe}\nestado: ${state.state}\n`
+        writeFileSync(`callsign-free/${file_name}`, `${file_preamble}${file_metadata}\n\n\n${text}`);
+        //console.log(`classe ${classe} - ${state.state}: ${state.free_callsigns.length}/${state.callsigns.length} (${ Number(100*state.free_callsigns.length/state.callsigns.length).toFixed(1) }%)`)
+        report[state.state] = report[state.state] || {};
+        report[state.state][classe] = {
+            total: state.callsigns.length,
+            free: state.free_callsigns.length,
+            pct: Number(100*state.free_callsigns.length/state.callsigns.length).toFixed(1),
+            
+        }
     }
+}
+
+for (const state in report) {
+    process.stdout.write(`|${state}`);
+    for (const classe of ['AB2', 'AB3', 'C'] ) {
+        const data = report[state][classe];
+        process.stdout.write(`|[**${data.pct}%**<br>${data.free}/${data.total}](https://hmagarotto.github.io/anatel-indicativo-livre/classe%20${classe}%20-%20${encodeURIComponent(state)}.csv)`);
+    }
+    process.stdout.write(`|\n`);
 }
