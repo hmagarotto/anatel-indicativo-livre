@@ -34,6 +34,14 @@ function generateSuffixes(suffix_start, suffix_end) {
     return result;
 }
 
+function generateSuffixesByRangeList(suffix_ranges) {
+    const result = [  ];
+    for (const range of suffix_ranges) {
+        result.push(... generateSuffixes(range.suffix_start, range.suffix_end));
+    }
+    return result;
+}
+
 const used = new Set(readFileSync('used.txt').toString('UTF8').split('\n'));
 const classes = {
     'AB2': states_ab2,
@@ -41,15 +49,18 @@ const classes = {
     'C': states_c,
 }
 const prohibited = new Set([
-    'DDD', 'SNM', 'SOS', 'SVH', 'TTT', 'XXX', 'PAN', 'RRR',
+    'DDD', 'PAN', 'RRR', 'SNM', 'SOS', 'SVH', 'TTT', 'XXX',
     ... generateSuffixes('QAA', 'QZZ')
 ]);
 
 for (const classe in classes) {
     const states = classes[classe];
     for (const state of states) {
-        const suffixes = generateSuffixes(state.suffix_start, state.suffix_end)
-            .filter(callsign =>  !prohibited.has(callsign.substr(-3)));
+        let suffixes = generateSuffixesByRangeList(state.suffix_ranges)
+            .filter(callsign =>  !prohibited.has(callsign.substr(-3)))
+            .sort();
+        suffixes = [... new Set(suffixes)]
+
         state.callsigns = suffixes
             .map(suffix => `${state.prefix}${state.region}${suffix}`);
         state.free_callsigns = state.callsigns

@@ -3,189 +3,216 @@
         "state": "ACRE",
         "prefix": "PT",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "ALAGOAS",
         "prefix": "PP",
         "region": 7,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "AMAPÁ",
         "prefix": "PQ",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "AMAZONAS",
         "prefix": "PP",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "BAHIA",
         "prefix": "PY",
         "region": 6,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "CEARÁ",
         "prefix": "PT",
         "region": 7,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "DISTRITO FEDERAL",
         "prefix": "PT",
         "region": 2,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "ESPÍRITO SANTO",
         "prefix": "PP",
         "region": 1,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "GOIÁS",
         "prefix": "PP",
         "region": 2,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "MARANHÃO",
         "prefix": "PR",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "MATO GROSSO",
         "prefix": "PY",
         "region": 9,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "MATO GROSSO DO SUL",
         "prefix": "PT",
         "region": 9,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "MINAS GERAIS",
         "prefix": "PY",
         "region": 4,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "PARAÍBA",
         "prefix": "PR",
         "region": 7,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "PARANÁ",
         "prefix": "PY",
         "region": 5,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "PARÁ",
         "prefix": "PY",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "PERNAMBUCO",
         "prefix": "PY",
         "region": 7,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "PIAUÍ",
         "prefix": "PS",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "RIO DE JANEIRO",
         "prefix": "PY",
         "region": 1,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "RIO GRANDE DO NORTE",
         "prefix": "PS",
         "region": 7,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "RIO GRANDE DO SUL",
         "prefix": "PY",
         "region": 3,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "RONDÔNIA",
         "prefix": "PW",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "RORAIMA",
         "prefix": "PV",
         "region": 8,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "SANTA CATARINA",
         "prefix": "PP",
         "region": 5,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "SÃO PAULO",
         "prefix": "PY",
         "region": 2,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "SERGIPE",
         "prefix": "PP",
         "region": 6,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     },
     {
         "state": "TOCANTINS",
         "prefix": "PQ",
         "region": 2,
-        "suffix_start": "AAA",
-        "suffix_end": "YZZ"
+        "suffix_ranges": [
+            { "suffix_start": "AAA", "suffix_end": "YZZ" }
+        ]
     }
 ]
